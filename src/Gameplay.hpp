@@ -12,7 +12,7 @@ private:
 		.target {0.0f, 0.0f, 0.0f},
 		.up {0.0f, 1.0f, 0.0f},
 		.fovy = 70.0f,
-		.projection = CameraProjection::CAMERA_PERSPECTIVE,
+		.projection = CameraProjection::CAMERA_ORTHOGRAPHIC,
 	};
 	
 	void toggleMenu();
